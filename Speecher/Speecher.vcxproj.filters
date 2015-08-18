@@ -3,11 +3,8 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PrecompiledHeader.cpp" />
-    <ClCompile Include="KeywordRecognizer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="NotificationSink.h" />
     <ClInclude Include="PrecompiledHeader.h" />
-    <ClInclude Include="KeywordRecognizer.h" />
   </ItemGroup>
 </Project>
