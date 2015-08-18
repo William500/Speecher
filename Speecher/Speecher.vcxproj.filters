@@ -3,8 +3,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PrecompiledHeader.cpp" />
+    <ClCompile Include="KeywordRecognizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrecompiledHeader.h" />
+    <ClInclude Include="RoInitializeWrapper.h" />
+    <ClInclude Include="KeywordRecognizer.h" />
   </ItemGroup>
 </Project>
