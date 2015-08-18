@@ -178,9 +178,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AsyncOperationHandler.h" />
+    <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="Iterable.h" />
     <ClInclude Include="KeywordRecognizer.h" />
     <ClInclude Include="PrecompiledHeader.h" />
     <ClInclude Include="RoInitializeWrapper.h" />
+    <ClInclude Include="SynchronousOperation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

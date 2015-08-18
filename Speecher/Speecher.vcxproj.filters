@@ -9,5 +9,9 @@
     <ClInclude Include="PrecompiledHeader.h" />
     <ClInclude Include="RoInitializeWrapper.h" />
     <ClInclude Include="KeywordRecognizer.h" />
+    <ClInclude Include="Iterable.h" />
+    <ClInclude Include="AsyncOperationHandler.h" />
+    <ClInclude Include="SynchronousOperation.h" />
+    <ClInclude Include="EventHandler.h" />
   </ItemGroup>
 </Project>
