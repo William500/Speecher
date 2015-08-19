@@ -4,6 +4,24 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PrecompiledHeader.cpp" />
     <ClCompile Include="KeywordRecognizer.cpp" />
+    <ClCompile Include="XAudio2\RiffChunk.cpp">
+      <Filter>XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2\RiffFile.cpp">
+      <Filter>XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2\Sound.cpp">
+      <Filter>XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2\AudioEmitter.cpp">
+      <Filter>XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2\AudioManager.cpp">
+      <Filter>XAudio2</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2\FourCCWrapper.cpp">
+      <Filter>XAudio2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="PrecompiledHeader.h" />
@@ -13,5 +31,43 @@
     <ClInclude Include="AsyncOperationHandler.h" />
     <ClInclude Include="SynchronousOperation.h" />
     <ClInclude Include="EventHandler.h" />
+    <ClInclude Include="XAudio2\FourCCWrapper.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2\RiffChunk.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2\RiffFile.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2\Sound.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2\SoundCacheKey.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2\AudioEmitter.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2\AudioManager.h">
+      <Filter>XAudio2</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{3f7c5627-3dff-4471-bfca-2e9e5fb12f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XAudio2">
+      <UniqueIdentifier>{afdd3dd3-8fe4-4026-ba01-6cf117c6c309}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Audio\allahuakbar.wav">
+      <Filter>Audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc" />
   </ItemGroup>
 </Project>
